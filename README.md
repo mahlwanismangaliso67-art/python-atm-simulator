@@ -1,57 +1,45 @@
-# 🏧 Python ATM Simulator (ZAR)
+ATM Banking System 🏧
+This is a simple ATM simulator built using Python.
+It allows a user to log in with a PIN and perform basic banking actions like checking balance, depositing money, and withdrawing money.
 
-A simple console-based ATM system built using Python.  
-This project simulates real banking operations using South African Rand (ZAR).
+📌 Features
+PIN login system
+Limited login attempts (security feature)
+Check account balance
+Deposit money
+Withdraw money
+Exit system safely
 
----
+🧠 What I Learned
+While building this project, I practiced:
+Python loops (while)
+If/else statements
+User input handling
+Variables and data types
+Basic logic for real-world systems
 
-## 📌 Features
+🚀 How It Works
+User inserts card
+User enters PIN
+If PIN is correct → access granted
+If PIN is wrong → attempts decrease
+After 5 wrong attempts → card is blocked
+User can then:
+Check balance
+Deposit money
+Withdraw money
+Exit
 
-- 🔐 PIN authentication system
-- 💰 Check account balance (ZAR - R)
-- ➕ Deposit money (ZAR - R)
-- ➖ Withdraw money with balance validation
-- 🚪 Exit system safely
-- 🔁 Continuous menu loop until exit
+💻 How to Run
+Install Python 3
+Download the file
 
----
 
-## 🧠 How It Works
-
-1. User inserts card (simulation)
-2. User enters PIN
-3. If PIN is correct, ATM menu appears:
-   - Check Balance
-   - Deposit
-   - Withdraw
-   - Exit
-4. All transactions are handled in **ZAR (R)** currency format
-
----
-
-## 💱 Currency Used
-
-All transactions are displayed in:
-- South African Rand (ZAR)
-- Symbol: **R**
-
-Example:
-- R700 balance
-- R100 deposit
-- R50 withdrawal
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- Conditional statements (`if/elif/else`)
-- Loops (`while`)
-- User input handling
-
----
-
-## 🚀 How to Run
-
-1. Install Python
-2. Clone repository:
+🔮 Future Improvements
+Add multiple user accounts
+Add transaction history
+Add PIN encryption
+Add GUI version
+Add database storage
+👨‍💻 Author
+Smangaliso Mahlwani
